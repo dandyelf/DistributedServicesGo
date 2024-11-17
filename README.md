@@ -5,6 +5,9 @@ Ex00 - 01 key-hash-based balancing so client could explicitly calculate for ever
 
 Ex02  introduce concepts of a Leader and a Follower nodes. Client ONLY interacts with a Leader node. The hashing function to determine where to write replicas is now on Leader, not in client.
 
+![variant1](images/strategy1.png)
+![variant2](images/strategy2.png)
+
 ```
 ~$ ./warehouse-cli -H 127.0.0.1 -P 8765
 Connected to a database of Warehouse 13 at 127.0.0.1:8765
